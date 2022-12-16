@@ -16,18 +16,18 @@ objet.set_string('femme')
 objet.print_string()
 #2
 class Rectangle:
-    def __init__(self, width: int, height: int):
-        self.width = width
-        self.height = height
+    def __init__(self, largeur: int, hauteur: int):
+        self.largeur = largeur
+        self.hauteur = hauteur
 
     def __str__(self):
-        return f"Rectangle: width={self.width}, height={self.height}"
+        return f"Rectangle: width={self.largeur}, height={self.hauteur}"
 
     def air(self):
-        return self.width * self.height
+        return self.largeur * self.hauteur
 
-    def afficher_infos (self)
-        return air
+    def afficher_infos (self):
+        return self.air()
 #3
 class Circle:
     def __init__(self, radius: int):
@@ -44,9 +44,10 @@ class Circle:
 #4
 class Hero:
 
-    def __init__(self, name:str, level, force: int, defense: int):
+    def __init__(self, nom:str, level, force: int, defense: int):
         self.nom = nom
         self.level = level
         self.force = force
         self.vie = vie
         self.defense = defense
+
